@@ -11,7 +11,7 @@ import App from '../src/App';
 import Timer from '../src/Timer';
 
 describe('<App />', () => {
-  var appWrapper
+  var appWrapper                                                                                                                                                
 
   it('calls componentDidMount and adds a quote', () => {
     spy(App.prototype, 'componentDidMount');
